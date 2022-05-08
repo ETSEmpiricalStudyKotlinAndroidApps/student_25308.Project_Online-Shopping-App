@@ -16,7 +16,7 @@ Lecturer Name: Saravanabalagi Ramachandran
 1. Authentication
 - [x] Allow User to Signup
 - [x] Log In using username and password
-- [x] Store userID and token once logged in, to keep the user logged in (even after restarting the app)
+- [ ] Store userID and token once logged in, to keep the user logged in (even after restarting the app)
 
 2. Product Listing
 - [x] List Product Categories
@@ -30,29 +30,33 @@ Lecturer Name: Saravanabalagi Ramachandran
 
 
 4.Show order history
-- [x] List users orders
-- [x] On clicking an Order, show Order details and Products ordered
-- [x] On clicking a Product, take them to Product description page created for 3.3
+*****Implemented but there is a mistake, I spend more than 10 hr trying to find out without success ****
+- [ ] List users orders
+- [ ] On clicking an Order, show Order details and Products ordered
+- [ ] On clicking a Product, take them to Product description page created for 3.3
 
 5.Show User details
 - [x] Use the stored userID to show user details
 - [x] Show a random circular profile image from https://thispersondoesnotexist.com/
-- [x] Show Logout button, on click take back to Signup / Log In page (Restart should not auto login after logout)
+        **** thispersondoesnotexist didnt work, so I use this cat =)
+- [ ] Show Logout button, on click take back to Signup / Log In page (Restart should not auto login after logout)
+        ****** partialy implemented******
 
 6. UI/Implementational Requirements
 - [x] RecyclerView used for all Lists: Categories, Products, Orders
-- [x] If logged in, attach authentication token to all requests until logout
+- [ ] If logged in, attach authentication token to all requests until logout
 - [x] Add a small "About this app" button in the profile page, that shows a page on click with your copyright details and credits
 
 7.Bonus
-- [x] ViewPager2 with bottom TabLayout for: Shop, Cart, Orders, Profile icons
+- [ ] ViewPager2 with bottom TabLayout for: Shop, Cart, Orders, Profile icons
+    ******** I started but I didn't had enough time 
 - [x] Show a map marker based on the GPS co-ordinates in user profile (Hint: Follow instructions given here)
+       *** doesnt work because I dont have access to the Key , I dont want to sign in . 
 
 
 
 # Extra features implemented
-    - certification created with a textview, base on the certification the circle change to the correct color
-    - 3 diferent ways to import images were used. 
+    
 
 
 # Report 
