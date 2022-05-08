@@ -31,6 +31,7 @@ Lecturer Name: Saravanabalagi Ramachandran
 
 4.Show order history
 *****Implemented but there is a mistake, I spend more than 10 hr trying to find out without success ****
+
 - [ ] List users orders
 - [ ] On clicking an Order, show Order details and Products ordered
 - [ ] On clicking a Product, take them to Product description page created for 3.3
@@ -39,7 +40,7 @@ Lecturer Name: Saravanabalagi Ramachandran
 - [x] Use the stored userID to show user details
 - [x] Show a random circular profile image from https://thispersondoesnotexist.com/
         **** thispersondoesnotexist didnt work, so I use this cat =)
-- [ ] Show Logout button, on click take back to Signup / Log In page (Restart should not auto login after logout)
+- [] Show Logout button, on click take back to Signup / Log In page (Restart should not auto login after logout)
         ****** partialy implemented******
 
 6. UI/Implementational Requirements
@@ -61,6 +62,28 @@ Lecturer Name: Saravanabalagi Ramachandran
 
 # Report 
 
+The creation of this course was very complicated for me, and it took me a long time to complete, especially the part showing the history of all the purchases. 
+The activity passed the data correctly through Gson, but I don't understand why it doesn't show up in the recyclerView. I think that I spent more than 6 hours trying to find the problem in one day ( I spent more time before).
+
+One issue that I have is that the app is super slow. So testing is really complicated. I don't know if my devices are the problem or is the number of requests and the Picasso(). 
+Another problem is that it did not work for me https://thispersondoesnotexist.com. It took me a long time to wait, and I got an error on many occasions. As you can see, I changed it for cats (I hope it is not a problem).
+
+Due to lack of time and health complications, I could not make the application in a way that is more user-friendly and improve the UI. But I am happy with the result and can apply the concepts learned. 
+
+Although the application is not perfect (far from it), I am happy with the results. 
+
+I tried to experiment on the application a little bit, to try different ways to get the result. 
+
+I am aware that the code could be more structured and cleaner. 
+
+What I found extremely complicated and that I can't understand how the tokens work to login the user. 
+
+In the map question, I didn't want to generate an API key since it costs, and I had a bad experience using it in the past.
+I didn't manage to do some things, but at least I tried. In the future, I will keep trying to improve this project. 
+
+There were many hours invested in the project, but I had fun. 
+
+I take this opportunity to thank you for your time and effort in the class. I just want to tell you that it was very productive because I am happy with what I learned since I had no experience in mobile development and Kotlin. Thank you!
 
 
 
