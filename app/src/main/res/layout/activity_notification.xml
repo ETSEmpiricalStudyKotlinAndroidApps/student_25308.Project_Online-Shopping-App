@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:fontFamily="@font/amiko"
+            android:padding="25dp"
+            android:text="@string/myShop"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8888"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/black"
+            android:fontFamily="@font/amiko"
+            android:padding="5dp"
+            android:text="@string/thanks_for_your_order"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView100333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:padding="8dp"
+            android:text="@string/we_will_send_you_another_email_when_it_is_in_transit"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stay_with_us_what_do_you_want_to_do" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_categoriesToDiscover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@color/purple_700"
+                android:padding="5dp"
+                android:text="@string/categories"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button_YourProfile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@color/purple_700"
+                android:padding="5dp"
+                android:text="@string/your_profile"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button_OrdersHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@color/purple_700"
+                android:padding="5dp"
+                android:text="@string/orders"
+                android:textColor="@color/white" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
